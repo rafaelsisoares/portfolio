@@ -1,14 +1,31 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Header() {
+  const navigate = useNavigate();
+  const handleClick = ({ target: { name } }) => {
+    switch (name) {
+      case 'home':
+        navigate('/');
+        break;
+
+      case 'about':
+        navigate('/about');
+        break;
+
+      default:
+        navigate('/projects');
+        break;
+    }
+  };
   return (
     <header>
       <nav>
         <div>{'<Rafael />'}</div>
         <div>
-          <button type="button">Pagina Inicial</button>
-          <button type="button">Sobre Mim</button>
-          <button type="button">Projetos</button>
+          <button type="button" name="home" onClick={handleClick}>Pagina Inicial</button>
+          <button type="button" name="about" onClick={handleClick}>Sobre Mim</button>
+          <button type="button" name="projects" onClick={handleClick}>Projetos</button>
         </div>
       </nav>
     </header>
