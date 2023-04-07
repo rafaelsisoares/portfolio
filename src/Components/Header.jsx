@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../Styles/Header.css';
 
 export default function Header() {
   const navigate = useNavigate();
@@ -19,9 +20,9 @@ export default function Header() {
     }
   };
   return (
-    <header>
-      <nav>
-        <div>{'<Rafael />'}</div>
+    <header className="header">
+      <nav className="navbar">
+        <div className="title">{'<Rafael />'}</div>
         <div>
           <button type="button" name="home" onClick={handleClick}>Pagina Inicial</button>
           <button type="button" name="about" onClick={handleClick}>Sobre Mim</button>
