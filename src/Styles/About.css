@@ -1,0 +1,37 @@
+article {
+    width: 25%;
+}
+
+.history {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7rem auto;
+}
+
+.about-me {
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+}
+
+.image {
+    width: 30%
+}
+
+svg {
+    font-size: xx-large;
+    margin: 1px 1.5rem;
+}
+
+.linkedin {
+    color: #0A66C2
+}
+
+.github {
+    color: #161B22;
+}
+
+.email {
+    color: #432158;
+}
