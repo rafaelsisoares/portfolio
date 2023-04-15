@@ -1,3 +1,16 @@
+:root {
+    --linkedin: #0A66C2;
+    --github: #161B22;
+    --email: #432158;
+    --html: #D84924;
+    --css: #2449D8;
+    --js: #EAD41C;
+    --react: #5CCFEE;
+    --node: #79B33E;
+    --mysql: #005F88;
+    --mongo: #00E15F;
+}
+
 article {
     width: 25%;
 }
@@ -5,7 +18,7 @@ article {
 .history {
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 7rem auto;
 }
 
@@ -16,22 +29,63 @@ article {
 }
 
 .image {
-    width: 30%
+    width: 40%;
+}
+
+.my-image {
+    width: 60%;
+    border-radius: 100%;
+}
+
+.describe {
+    font-size: 0.7rem;
+}
+
+img {
+    width: 100%
 }
 
 svg {
-    font-size: xx-large;
+    font-size: 3.1rem;
     margin: 1px 1.5rem;
 }
 
+.html {
+    color: var(--html);
+}
+
+.css {
+    color: var(--css);
+}
+
+.js {
+    color: var(--js);
+}
+
+.react {
+    color: var(--react);
+}
+
+.node {
+    color: var(--node);
+}
+
+.mysql {
+    color: var(--mysql);
+}
+
+.mongo {
+    color: var(--mongo);
+}
+
 .linkedin {
-    color: #0A66C2
+    color: var(--linkedin);
 }
 
 .github {
-    color: #161B22;
+    color: var(--github);
 }
 
 .email {
-    color: #432158;
+    color: var(--email);
 }

@@ -23,7 +23,7 @@ export default function About() {
       <section className="about-me">
         <div className="history">
           <div className="image">
-            <img src="./images" alt="Foto" />
+            <img src="images/me.jpg" alt="Foto de Rafael" className="my-image" />
           </div>
           <article>
             <p>
@@ -37,7 +37,8 @@ export default function About() {
         </div>
         <div className="history">
           <div className="image">
-            <img src="./images" alt="Foto" />
+            <img src="./images" alt="Foto do jogo Airplane VS UFO" />
+            <p className="describe">Jogo Airplane VS UFO</p>
           </div>
           <article>
             <p>
@@ -53,7 +54,7 @@ export default function About() {
         </div>
         <div className="history">
           <div className="image">
-            <img src="./images" alt="Foto" />
+            <img src="./images" alt="Foto do projeto de redes" />
           </div>
           <article>
             <p>
@@ -65,7 +66,8 @@ export default function About() {
         </div>
         <div className="history">
           <div className="image">
-            <img src="./images" alt="Foto" />
+            <img src="images/trybeFCPortfolio.png" alt="Projeto Trybe Futebol Clube" />
+            <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
           </div>
           <article>
             <p>
@@ -83,13 +85,13 @@ export default function About() {
       <section className="stacks">
         <h1>Tecnologias que mais utilizo</h1>
         <div className="icons">
-          <FaHtml5 />
-          <FaCss3Alt />
-          <FaJsSquare />
-          <FaReact />
-          <FaNodeJs />
-          <DiMysql />
-          <DiMongodb />
+          <FaHtml5 className="html" />
+          <FaCss3Alt className="css" />
+          <FaJsSquare className="js" />
+          <FaReact className="react" />
+          <FaNodeJs className="node" />
+          <DiMysql className="mysql" />
+          <DiMongodb className="mongo" />
         </div>
       </section>
       <hr />
