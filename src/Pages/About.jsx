@@ -19,11 +19,12 @@ export default function About() {
   return (
     <section>
       <Header />
-      <h1>Sobre Mim</h1>
       <section className="about-me">
+        <h1>Sobre Mim</h1>
         <div className="history">
           <div className="image">
             <img src="images/me.jpg" alt="Foto de Rafael" className="my-image" />
+            <p className="describe">Sim, esse sou eu!</p>
           </div>
           <article>
             <p>
@@ -37,7 +38,7 @@ export default function About() {
         </div>
         <div className="history">
           <div className="image">
-            <img src="./images" alt="Foto do jogo Airplane VS UFO" />
+            <img src="images/airplane-vs-ufo.png" alt="Foto do jogo Airplane VS UFO" />
             <p className="describe">Jogo Airplane VS UFO</p>
           </div>
           <article>
@@ -54,7 +55,8 @@ export default function About() {
         </div>
         <div className="history">
           <div className="image">
-            <img src="./images" alt="Foto do projeto de redes" />
+            <img src="images/projeto-de-redes.png" alt="Foto do projeto de redes" />
+            <p className="describe">Projeto de redes, tem até um link VPN</p>
           </div>
           <article>
             <p>
