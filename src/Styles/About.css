@@ -19,12 +19,12 @@ article {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    margin: 7rem auto;
+    margin: 10rem auto;
 }
 
 .about-me {
-    border: 1px solid black;
     margin: auto;
+    margin-top: 5.5rem;
     width: 80%;
 }
 
@@ -48,6 +48,10 @@ img {
 svg {
     font-size: 3.1rem;
     margin: 1px 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
 }
 
 .html {

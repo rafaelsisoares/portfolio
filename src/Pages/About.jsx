@@ -12,6 +12,7 @@ import {
 } from 'react-icons/fa';
 import { DiMysql, DiMongodb } from 'react-icons/di';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Header from '../Components/Header';
 import '../Styles/About.css';
 
@@ -19,9 +20,13 @@ export default function About() {
   return (
     <section>
       <Header />
-      <section className="about-me">
+      <div className="about-me">
         <h1>Sobre Mim</h1>
-        <div className="history">
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 0.4 }}
+          className="history"
+        >
           <div className="image">
             <img src="images/me.jpg" alt="Foto de Rafael" className="my-image" />
             <p className="describe">Sim, esse sou eu!</p>
@@ -35,8 +40,12 @@ export default function About() {
               relacionados a informática.
             </p>
           </article>
-        </div>
-        <div className="history">
+        </motion.div>
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 0.4 }}
+          className="history"
+        >
           <div className="image">
             <img src="images/airplane-vs-ufo.png" alt="Foto do jogo Airplane VS UFO" />
             <p className="describe">Jogo Airplane VS UFO</p>
@@ -52,8 +61,12 @@ export default function About() {
               E foi nesse curso que o meu interesse pela programação floriu.
             </p>
           </article>
-        </div>
-        <div className="history">
+        </motion.div>
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 0.4 }}
+          className="history"
+        >
           <div className="image">
             <img src="images/projeto-de-redes.png" alt="Foto do projeto de redes" />
             <p className="describe">Projeto de redes, tem até um link VPN</p>
@@ -65,8 +78,12 @@ export default function About() {
               configurar roteador e switch, fazer endereçamento IPv4 e IPv6, entre outros conteúdos.
             </p>
           </article>
-        </div>
-        <div className="history">
+        </motion.div>
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 0.4 }}
+          className="history"
+        >
           <div className="image">
             <img src="images/trybeFCPortfolio.png" alt="Projeto Trybe Futebol Clube" />
             <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
@@ -81,8 +98,8 @@ export default function About() {
               individuais como em grupo.
             </p>
           </article>
-        </div>
-      </section>
+        </motion.div>
+      </div>
       <hr />
       <section className="stacks">
         <h1>Tecnologias que mais utilizo</h1>
