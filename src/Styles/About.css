@@ -12,14 +12,14 @@
 }
 
 article {
-    width: 25%;
+    width: 50%;
 }
 
 .history {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    margin: 10rem auto;
+    margin: 15rem auto;
 }
 
 .about-me {

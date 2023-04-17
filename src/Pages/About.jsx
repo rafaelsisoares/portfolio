@@ -46,10 +46,6 @@ export default function About() {
           transition={{ duration: 0.4 }}
           className="history"
         >
-          <div className="image">
-            <img src="images/airplane-vs-ufo.png" alt="Foto do jogo Airplane VS UFO" />
-            <p className="describe">Jogo Airplane VS UFO</p>
-          </div>
           <article>
             <p>
               Meu primeiro contato com a programação foi em um curso técnico de desenvolvimento
@@ -58,9 +54,13 @@ export default function About() {
               desenvolvi o Airplane vs UFO, um space shooter 2D onde o jogador controla uma nave
               e precisa destruir os inimigos (discos voadores) além de desviar dos asteróides para
               enfim derrotar a nave mãe.
-              E foi nesse curso que o meu interesse pela programação floriu.
+              E foi nesse curso que o meu interesse pela programação começou.
             </p>
           </article>
+          <div className="image">
+            <img src="images/airplane-vs-ufo.png" alt="Foto do jogo Airplane VS UFO" />
+            <p className="describe">Jogo Airplane VS UFO</p>
+          </div>
         </motion.div>
         <motion.div
           whileInView={{ scale: [0, 1] }}
@@ -84,10 +84,6 @@ export default function About() {
           transition={{ duration: 0.4 }}
           className="history"
         >
-          <div className="image">
-            <img src="images/trybeFCPortfolio.png" alt="Projeto Trybe Futebol Clube" />
-            <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
-          </div>
           <article>
             <p>
               Em 2022, enquanto trabalhava com meu pai na lanchonete dele, conheci a Trybe
@@ -98,6 +94,10 @@ export default function About() {
               individuais como em grupo.
             </p>
           </article>
+          <div className="image">
+            <img src="images/trybeFCPortfolio.png" alt="Projeto Trybe Futebol Clube" />
+            <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
+          </div>
         </motion.div>
       </div>
       <hr />
