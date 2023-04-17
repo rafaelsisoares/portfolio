@@ -41,6 +41,16 @@ export default function Projects() {
         <br />
         <Link to="https://deolhonotempo.bohr.io/">Deploy</Link>
       </div>
+      <br />
+      <div>
+        <img src="images/blogsAPI.png" alt="blogs API" />
+        <strong>Blogs API</strong>
+        <p>
+          Projeto back-end que retorna os dados de posts de um blog armazenados no
+          banco de dados MySQL.
+        </p>
+        <Link to="https://github.com/rafaelsisoares/blogs-api">Repositório</Link>
+      </div>
     </section>
   );
 }
