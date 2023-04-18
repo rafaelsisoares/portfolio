@@ -73,6 +73,7 @@ export default function Projects() {
         </div>
         <div className="project">
           <img src="images/solar-system.png" alt="blogs API" />
+          <br />
           <strong>Projeto Solar System</strong>
           <p>
             Meu primeiro projeto de React.js que lista todos os planetas do sistema solar
