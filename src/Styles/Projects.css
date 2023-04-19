@@ -6,7 +6,6 @@
 }
 
 .projects {
-    border: 1px solid #000000;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

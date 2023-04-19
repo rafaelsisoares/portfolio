@@ -93,3 +93,8 @@ h1 {
 .email {
     color: var(--email);
 }
+
+.stacks,
+.contacts {
+    margin: 0.5rem auto;
+}
