@@ -1,0 +1,28 @@
+:root {
+    --bg-color: #130A5E;
+    --link-color: #F5F5F5;
+}
+
+.responsive-footer {
+    background-color: var(--bg-color);
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.responsive-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.responsive-buttons a {
+    color: var(--link-color);
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-footer {
+        display: block;
+    }
+}
