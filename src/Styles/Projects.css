@@ -58,3 +58,19 @@
     color: var(--font-black);
     height: auto;
 }
+
+@media screen and (max-width: 767px) {
+    .project {
+        opacity: 1;
+        width: 60%;
+    }
+
+    .project a {
+        border-radius: 0.5rem;
+        padding: 1.1rem;
+    }
+
+    .project a:hover {
+        background-color: var(--button-bg-color-hover);
+    }
+}

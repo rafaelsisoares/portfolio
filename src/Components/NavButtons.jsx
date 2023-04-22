@@ -19,7 +19,7 @@ export default function NavButtons() {
     }
   };
   return (
-    <div>
+    <div className="menu">
       <button type="button" name="home" onClick={handleClick}>Pagina Inicial</button>
       <button type="button" name="about" onClick={handleClick}>Sobre Mim</button>
       <button type="button" name="projects" onClick={handleClick}>Projetos</button>

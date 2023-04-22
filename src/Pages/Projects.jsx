@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Components/Header';
 import '../Styles/Projects.css';
+import Footer from '../Components/Footer';
 
 export default function Projects() {
   return (
@@ -89,6 +90,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   );
 }
