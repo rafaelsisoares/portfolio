@@ -15,6 +15,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Header from '../Components/Header';
 import '../Styles/About.css';
+import Footer from '../Components/Footer';
 
 export default function About() {
   return (
@@ -126,6 +127,7 @@ export default function About() {
           <FaEnvelope className="email" />
         </Link>
       </section>
+      <Footer />
     </section>
   );
 }
