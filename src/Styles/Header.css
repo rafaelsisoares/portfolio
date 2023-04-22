@@ -22,7 +22,7 @@
     color: var(--font-color);
 }
 
-button {
+.menu button {
     background-color: var(--bg-color);
     border: 1px solid var(--bg-color);
     color: var(--font-color);
@@ -30,7 +30,17 @@ button {
     height: 100%;
 }
 
-button:hover {
+.menu button:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
 }
