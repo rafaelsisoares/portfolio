@@ -42,6 +42,7 @@
 
 .btn-repo:hover, .btn-deploy:hover {
     background-color: var(--button-bg-color-hover);
+    cursor: pointer;
     text-decoration: underline;
 }
 
