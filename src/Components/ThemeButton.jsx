@@ -4,7 +4,7 @@ import { string, func } from 'prop-types';
 
 export default function ThemeButton({ theme, changeTheme }) {
   return (
-    <button type="button" onClick={changeTheme}></button>
+    <button type="button" onClick={changeTheme}>
       {
         theme === 'light' ? 'dark' : 'light'
     }
