@@ -1,12 +1,14 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { string, func } from 'prop-types';
+import { FaMoon, FaRegSun } from 'react-icons/fa';
+import '../Styles/ThemeButton.css';
 
 export default function ThemeButton({ theme, changeTheme }) {
   return (
-    <button type="button" onClick={changeTheme}>
+    <button type="button" className="btn-theme" onClick={changeTheme}>
       {
-        theme === 'light' ? 'dark' : 'light'
+        theme === 'light' ? <FaMoon /> : <FaRegSun />
     }
     </button>
   );
