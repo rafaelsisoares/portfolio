@@ -1,0 +1,78 @@
+:root {
+    --border: #808080;
+    --card-bg-color: #D3D3D3;
+    --font-black: #000000;
+    --button-bg-color-hover: #A9A9A9;
+}
+
+.projects {
+    color: var(--font-black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.project {
+    background-color: var(--card-bg-color);
+    border-radius: 5%;
+    box-shadow: 0.15rem 0.15rem var(--border);
+    margin: 1rem 0.8rem;
+    opacity: 0.6;
+    padding: 0.5rem;
+    transition: transform 200ms;
+    width: 30%;
+}
+
+.project:hover {
+    transform: scale(1.06);
+    opacity: 1;
+}
+
+.project img {
+    border-radius: 3%;
+}
+
+
+.project a {
+    color: var(--font-black);
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.btn-repo:hover, .btn-deploy:hover {
+    background-color: var(--button-bg-color-hover);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.links {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-repo, .btn-deploy {
+    background-color: var(--card-bg-color);
+    border: none;
+    border-radius: 0.3rem;
+    color: var(--font-black);
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .project {
+        opacity: 1;
+        width: 60%;
+    }
+
+    .project a {
+        border-radius: 0.5rem;
+        padding: 1.1rem;
+    }
+
+    .project a:hover {
+        background-color: var(--button-bg-color-hover);
+    }
+}

@@ -1,0 +1,121 @@
+:root {
+    --linkedin: #0A66C2;
+    --github: #161B22;
+    --email: #805799;
+    --html: #D84924;
+    --css: #2449D8;
+    --js: #EAD41C;
+    --react: #5CCFEE;
+    --node: #79B33E;
+    --mysql: #005F88;
+    --mongo: #00E15F;
+}
+
+article {
+    width: 50%;
+}
+
+.history {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 15rem auto;
+}
+
+.about-me {
+    margin: auto;
+    margin-top: 5.5rem;
+    width: 80%;
+}
+
+.image {
+    width: 40%;
+}
+
+.my-image {
+    width: 60%;
+    border-radius: 100%;
+}
+
+.describe {
+    font-size: 0.7rem;
+}
+
+img {
+    width: 100%
+}
+
+svg {
+    font-size: 3.1rem;
+    margin: 1px 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.html {
+    color: var(--html);
+}
+
+.css {
+    color: var(--css);
+}
+
+.js {
+    color: var(--js);
+}
+
+.react {
+    color: var(--react);
+}
+
+.node {
+    color: var(--node);
+}
+
+.mysql {
+    color: var(--mysql);
+}
+
+.mongo {
+    color: var(--mongo);
+}
+
+.linkedin {
+    color: var(--linkedin);
+}
+
+.github {
+    color: var(--github);
+}
+
+.email {
+    color: var(--email);
+}
+
+.stacks,
+.contacts {
+    margin: 0.5rem auto;
+}
+
+@media screen and (max-width: 767px) {
+    svg {
+        font-size: 2.3rem;
+    }
+
+    .history {
+        font-size: 0.7rem;
+        margin: 10rem auto;
+        width: 100%;
+    }
+    
+    .image {
+        width: 50%;
+        margin: 0 1rem;
+    }
+
+    .describe {
+        font-size: 0.5rem;
+    }
+}
