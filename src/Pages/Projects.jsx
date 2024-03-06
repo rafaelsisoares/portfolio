@@ -73,7 +73,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/solar-system.png" alt="blogs API" />
+          <img src="images/solar-system.png" alt="projeto solar system" />
           <br />
           <strong>Projeto Solar System</strong>
           <p>
@@ -85,6 +85,24 @@ export default function Projects() {
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
             <Link to="https://solarsystem.bohr.io/">
+              <button type="button" className="btn-deploy">Deploy</button>
+            </Link>
+          </div>
+        </div>
+        <div className="project">
+          <img src="images/mybookCapa.png" alt="mybook" />
+          <br />
+          <strong>Projeto MyBook</strong>
+          <p>
+            Projeto pessoal feito em React que recria uma rede social
+            onde é possível ver e criar postagens, curtir e comentar nas postagens existentes.
+            Embora o projeto tenha apenas o front-end, há validação de usuário e senha.
+          </p>
+          <div className="links">
+            <Link to="https://github.com/rafaelsisoares/mybook">
+              <button type="button" className="btn-repo">Repositório</button>
+            </Link>
+            <Link to="https://mybook.bohr.io/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
