@@ -73,7 +73,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/solar-system.png" alt="blogs API" />
+          <img src="images/solar-system.png" alt="projeto solar system" />
           <br />
           <strong>Projeto Solar System</strong>
           <p>
