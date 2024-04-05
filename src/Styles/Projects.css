@@ -64,7 +64,7 @@
 @media screen and (max-width: 767px) {
     .project {
         opacity: 1;
-        width: 60%;
+        width: 75%;
     }
 
     .project a {
