@@ -1,0 +1,12 @@
+.toggle-bk {
+    border: 1px solid #FFF;
+    border-radius: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px 50px;
+}
+
+.toggle {
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
