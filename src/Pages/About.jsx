@@ -100,6 +100,23 @@ export default function About() {
             <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
           </div>
         </motion.div>
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 0.4 }}
+          className="history"
+        >
+          <div className="image">
+            <img src="images/projeto-de-redes.png" alt="Foto do projeto de redes" />
+            <p className="describe">Projeto de redes, tem até um link VPN</p>
+          </div>
+          <article>
+            <p>
+              Em 2024 o sim veio! Minha primeira oportunidade profissional,
+              embora não seja na área de tecnologia, aceitei pois vi uma
+              oportunidade de aprender sobre uma outra área de atuação
+            </p>
+          </article>
+        </motion.div>
       </div>
       <hr />
       <section className="stacks">
