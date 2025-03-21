@@ -118,9 +118,6 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/podcast-managment">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://mybook.bohr.io/">
-              <button type="button" className="btn-deploy">Deploy</button>
-            </Link>
           </div>
         </div>
       </div>
