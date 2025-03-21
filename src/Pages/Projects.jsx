@@ -107,6 +107,22 @@ export default function Projects() {
             </Link>
           </div>
         </div>
+        <div className="project">
+          <img src="images/podcasts.png" alt="Podcast Managment" />
+          <br />
+          <strong>Projeto PodcastManagment</strong>
+          <p>
+            API REST feita em Java usando o SpringFramework que simunla o gerenciamento de podcasts.
+          </p>
+          <div className="links">
+            <Link to="https://github.com/rafaelsisoares/podcast-managment">
+              <button type="button" className="btn-repo">Repositório</button>
+            </Link>
+            <Link to="https://mybook.bohr.io/">
+              <button type="button" className="btn-deploy">Deploy</button>
+            </Link>
+          </div>
+        </div>
       </div>
       <Footer />
     </section>
