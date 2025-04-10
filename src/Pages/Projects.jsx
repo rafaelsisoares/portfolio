@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../Components/Header';
 import '../Styles/Projects.css';
 import Footer from '../Components/Footer';
 
 export default function Projects() {
   return (
     <section>
-      <Header />
       <h1>Veja alguns dos meus projetos</h1>
       <hr />
       <div className="projects">

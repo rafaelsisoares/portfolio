@@ -13,14 +13,12 @@ import {
 import { DiMysql, DiMongodb } from 'react-icons/di';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Header from '../Components/Header';
 import '../Styles/About.css';
 import Footer from '../Components/Footer';
 
 export default function About() {
   return (
     <section>
-      <Header />
       <div className="about-me">
         <h1>Sobre Mim</h1>
         <motion.div
@@ -113,7 +111,12 @@ export default function About() {
             <p>
               Em 2024 o sim veio! Minha primeira oportunidade profissional,
               embora não seja na área de tecnologia, aceitei pois vi uma
-              oportunidade de aprender sobre uma outra área de atuação
+              oportunidade de aprender sobre uma outra área de atuação, estou
+              atuando atualmente como Operador CGC. Nessa
+              ocupação, minha função é controlar as cancelas de entrada e saída,
+              cadastro e atualização da base de credenciados, consultar imagens
+              de CFTV quando solicitado e outras atividades pertinentes a operação
+              de um estacionamento.
             </p>
           </article>
         </motion.div>
