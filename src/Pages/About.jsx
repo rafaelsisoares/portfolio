@@ -104,8 +104,8 @@ export default function About() {
           className="history"
         >
           <div className="image">
-            <img src="images/projeto-de-redes.png" alt="Foto do projeto de redes" />
-            <p className="describe">Projeto de redes, tem até um link VPN</p>
+            <img src="images/me-at-estapar.jpeg" alt="Foto minha no meu emprego atual" className="my-image" />
+            <p className="describe">Eu trabalhando pela Estapar</p>
           </div>
           <article>
             <p>
