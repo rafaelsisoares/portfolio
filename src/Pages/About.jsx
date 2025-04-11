@@ -9,6 +9,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaEnvelope,
+  FaJava,
 } from 'react-icons/fa';
 import { DiMysql, DiMongodb } from 'react-icons/di';
 import { Link } from 'react-router-dom';
@@ -132,6 +133,7 @@ export default function About() {
           <FaNodeJs className="node" />
           <DiMysql className="mysql" />
           <DiMongodb className="mongo" />
+          <FaJava />
         </div>
       </section>
       <hr />
