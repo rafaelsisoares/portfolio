@@ -34,7 +34,7 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/project-trybetunes">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://trybetunes.bohr.io/">
+            <Link to="https://project-trybetunes-three.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
@@ -51,7 +51,7 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/de-olho-no-tempo">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://deolhonotempo.bohr.io/">
+            <Link to="https://de-olho-no-tempo.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
@@ -82,7 +82,7 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/project-solar-system">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://solarsystem.bohr.io/">
+            <Link to="https://project-solar-system-sage.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
@@ -100,7 +100,7 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/mybook">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://mybook.bohr.io/">
+            <Link to="https://mybook-sn.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
