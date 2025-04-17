@@ -9,18 +9,17 @@ import {
   FaLinkedin,
   FaGithub,
   FaEnvelope,
+  FaJava,
 } from 'react-icons/fa';
 import { DiMysql, DiMongodb } from 'react-icons/di';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Header from '../Components/Header';
 import '../Styles/About.css';
 import Footer from '../Components/Footer';
 
 export default function About() {
   return (
     <section>
-      <Header />
       <div className="about-me">
         <h1>Sobre Mim</h1>
         <motion.div
@@ -100,6 +99,28 @@ export default function About() {
             <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
           </div>
         </motion.div>
+        <motion.div
+          whileInView={{ scale: [0, 1] }}
+          transition={{ duration: 0.4 }}
+          className="history"
+        >
+          <div className="image">
+            <img src="images/me-at-estapar.jpeg" alt="Foto minha no meu emprego atual" className="my-image" />
+            <p className="describe">Eu trabalhando pela Estapar</p>
+          </div>
+          <article>
+            <p>
+              Em 2024 o sim veio! Minha primeira oportunidade profissional,
+              embora não seja na área de tecnologia, aceitei pois vi uma
+              oportunidade de aprender sobre uma outra área de atuação, estou
+              atuando atualmente como Operador CGC. Nessa
+              ocupação, minha função é controlar as cancelas de entrada e saída,
+              cadastro e atualização da base de credenciados, consultar imagens
+              de CFTV quando solicitado e outras atividades pertinentes a operação
+              de um estacionamento.
+            </p>
+          </article>
+        </motion.div>
       </div>
       <hr />
       <section className="stacks">
@@ -112,6 +133,7 @@ export default function About() {
           <FaNodeJs className="node" />
           <DiMysql className="mysql" />
           <DiMongodb className="mongo" />
+          <FaJava />
         </div>
       </section>
       <hr />

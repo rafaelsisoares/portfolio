@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../Components/Header';
 import '../Styles/Projects.css';
 import Footer from '../Components/Footer';
 
 export default function Projects() {
   return (
     <section>
-      <Header />
       <h1>Veja alguns dos meus projetos</h1>
       <hr />
       <div className="projects">
@@ -36,7 +34,7 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/project-trybetunes">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://trybetunes.bohr.io/">
+            <Link to="https://project-trybetunes-three.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
@@ -53,7 +51,7 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/de-olho-no-tempo">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://deolhonotempo.bohr.io/">
+            <Link to="https://de-olho-no-tempo.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
             </Link>
           </div>
@@ -73,7 +71,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/solar-system.png" alt="blogs API" />
+          <img src="images/solar-system.png" alt="projeto solar system" />
           <br />
           <strong>Projeto Solar System</strong>
           <p>
@@ -84,8 +82,39 @@ export default function Projects() {
             <Link to="https://github.com/rafaelsisoares/project-solar-system">
               <button type="button" className="btn-repo">Repositório</button>
             </Link>
-            <Link to="https://solarsystem.bohr.io/">
+            <Link to="https://project-solar-system-sage.vercel.app/">
               <button type="button" className="btn-deploy">Deploy</button>
+            </Link>
+          </div>
+        </div>
+        <div className="project">
+          <img src="images/mybookCapa.png" alt="mybook" />
+          <br />
+          <strong>Projeto MyBook</strong>
+          <p>
+            Projeto pessoal feito em React que recria uma rede social
+            onde é possível ver e criar postagens, curtir e comentar nas postagens existentes.
+            Embora o projeto tenha apenas o front-end, há validação de usuário e senha.
+          </p>
+          <div className="links">
+            <Link to="https://github.com/rafaelsisoares/mybook">
+              <button type="button" className="btn-repo">Repositório</button>
+            </Link>
+            <Link to="https://mybook-sn.vercel.app/">
+              <button type="button" className="btn-deploy">Deploy</button>
+            </Link>
+          </div>
+        </div>
+        <div className="project">
+          <img src="images/podcasts.png" alt="Podcast Managment" />
+          <br />
+          <strong>Projeto PodcastManagment</strong>
+          <p>
+            API REST feita em Java usando o SpringFramework que simunla o gerenciamento de podcasts.
+          </p>
+          <div className="links">
+            <Link to="https://github.com/rafaelsisoares/podcast-managment">
+              <button type="button" className="btn-repo">Repositório</button>
             </Link>
           </div>
         </div>

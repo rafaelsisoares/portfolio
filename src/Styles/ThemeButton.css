@@ -1,21 +1,11 @@
 .btn-theme {
     background-color: transparent;
     border: 1px solid transparent;
+    color: #FFF;
     cursor: pointer;
-    position: fixed;
-    top: 93%;
-    left: 93%;
     padding: 0;
 }
 
 .btn-theme svg {
-    font-size: 1.5rem;
-}
-
-@media screen and (max-width: 767px) {
-    .btn-theme {
-        cursor: none;
-        top: 88%;
-        left: 84%;
-    }
+    font-size: 1.2rem;
 }
