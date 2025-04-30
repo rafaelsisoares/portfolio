@@ -118,6 +118,20 @@ export default function Projects() {
             </Link>
           </div>
         </div>
+        <div className="project">
+          <img src="images/parkingSystem.png" alt="Parking System" />
+          <br />
+          <strong>Projeto ParkingSystem</strong>
+          <p>
+            API REST feita em Java usando o SpringFramework que simunla o back-end
+            de um sistema de gerenciamento de estacionamento.
+          </p>
+          <div className="links">
+            <Link to="https://github.com/rafaelsisoares/parkingSystem">
+              <button type="button" className="btn-repo">Repositório</button>
+            </Link>
+          </div>
+        </div>
       </div>
       <Footer />
     </section>
