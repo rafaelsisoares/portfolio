@@ -28,7 +28,7 @@ export default function About() {
           className="history"
         >
           <div className="image">
-            <img src="images/me.jpg" alt="Foto de Rafael" className="my-image" />
+            <img src="images/me.webp" alt="Foto de Rafael" className="my-image" />
             <p className="describe">Sim, esse sou eu!</p>
           </div>
           <article>
@@ -58,7 +58,7 @@ export default function About() {
             </p>
           </article>
           <div className="image">
-            <img src="images/airplane-vs-ufo.png" alt="Foto do jogo Airplane VS UFO" />
+            <img src="images/airplane-vs-ufo.webp" alt="Foto do jogo Airplane VS UFO" />
             <p className="describe">Jogo Airplane VS UFO</p>
           </div>
         </motion.div>
@@ -68,7 +68,7 @@ export default function About() {
           className="history"
         >
           <div className="image">
-            <img src="images/projeto-de-redes.png" alt="Foto do projeto de redes" />
+            <img src="images/projeto-de-redes.webp" alt="Foto do projeto de redes" />
             <p className="describe">Projeto de redes, tem até um link VPN</p>
           </div>
           <article>
@@ -95,7 +95,7 @@ export default function About() {
             </p>
           </article>
           <div className="image">
-            <img src="images/trybeFCPortfolio.png" alt="Projeto Trybe Futebol Clube" />
+            <img src="images/trybeFCPortfolio.webp" alt="Projeto Trybe Futebol Clube" />
             <p className="describe">Um dos vários projetos desenvolvidos durante o curso da Trybe</p>
           </div>
         </motion.div>
@@ -105,7 +105,7 @@ export default function About() {
           className="history"
         >
           <div className="image">
-            <img src="images/me-at-estapar.jpeg" alt="Foto minha no meu emprego atual" className="my-image" />
+            <img src="images/me-at-estapar.webp" alt="Foto minha no meu emprego atual" className="my-image" />
             <p className="describe">Eu trabalhando pela Estapar</p>
           </div>
           <article>
@@ -145,7 +145,7 @@ export default function About() {
         <Link to="https://github.com/rafaelsisoares">
           <FaGithub className="github" />
         </Link>
-        <Link to="mailto:r.soares2015@outlook.com">
+        <Link to="mailto:">
           <FaEnvelope className="email" />
         </Link>
       </section>
