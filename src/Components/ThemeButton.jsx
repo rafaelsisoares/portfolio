@@ -6,7 +6,7 @@ import '../Styles/ThemeButton.css';
 
 export default function ThemeButton({ theme, changeTheme }) {
   return (
-    <button type="button" className="btn-theme" onClick={changeTheme}>
+    <button type="button" className="btn-theme" onClick={changeTheme} aria-label="Botão para mudar o tema do site">
       {
         theme === 'light' ? <FaMoon /> : <FaRegSun />
     }
