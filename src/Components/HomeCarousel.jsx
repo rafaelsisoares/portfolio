@@ -17,7 +17,7 @@ export default function HomeCarousel() {
                   <div className="carousel">
                     <strong>Estes são alguns dos meus projetos</strong>
                     <p>Você pode encontrá-los na página de Projetos</p>
-                    <img alt="Imagens de projetos" src={img} />
+                    <img alt="Imagens de projetos" src={img} width="100%" height="100%" />
                   </div>
                 ))
             }
