@@ -5,9 +5,9 @@ import '../Styles/HomeCarousel.css';
 
 export default function HomeCarousel() {
   const images = [
-    'images/podcasts.png',
-    'images/mybookCapa.png',
-    'images/trybeFCPortfolio.png',
+    'images/podcasts.webp',
+    'images/mybookCapa.webp',
+    'images/trybeFCPortfolio.webp',
   ];
   return (
     <section className="box-carousel">
@@ -15,7 +15,7 @@ export default function HomeCarousel() {
         {
                 images.map((img) => (
                   <div className="carousel">
-                    <h4>Estes são alguns dos meus projetos</h4>
+                    <strong>Estes são alguns dos meus projetos</strong>
                     <p>Você pode encontrá-los na página de Projetos</p>
                     <img alt="Imagens de projetos" src={img} />
                   </div>

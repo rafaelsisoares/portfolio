@@ -10,7 +10,7 @@ export default function Projects() {
       <hr />
       <div className="projects">
         <div className="project">
-          <img src="images/trybeFCPortfolio.png" alt="trybe futebol clube" />
+          <img src="images/trybeFCPortfolio.webp" alt="trybe futebol clube" />
           <strong>Projeto Trybe Futebol Clube</strong>
           <p>
             Projeto full-stack de gerenciamento de um campeonato de futebol. O principal desafio
@@ -24,7 +24,7 @@ export default function Projects() {
         </div>
         <br />
         <div className="project">
-          <img src="images/trybetunes.png" alt="trybetunes" />
+          <img src="images/trybetunes.webp" alt="trybetunes" />
           <strong>Projeto TrybeTunes</strong>
           <p>
             Projeto front-end que simula uma aplicação de streaming de música, nesse projeto
@@ -41,7 +41,7 @@ export default function Projects() {
         </div>
         <br />
         <div className="project">
-          <img src="images/de-olho-no-tempo.png" alt="de olho no tempo" />
+          <img src="images/de-olho-no-tempo.webp" alt="de olho no tempo" />
           <strong>Projeto De Olho No Tempo</strong>
           <p>
             Projeto front-end que exibe informações do tempo em uma cidade, nesse projeto
@@ -58,7 +58,7 @@ export default function Projects() {
         </div>
         <br />
         <div className="project">
-          <img src="images/blogsAPI.png" alt="blogs API" />
+          <img src="images/blogsAPI.webp" alt="blogs API" />
           <strong>Projeto Blogs API</strong>
           <p>
             Projeto back-end que retorna os dados de posts de um blog armazenados no
@@ -71,7 +71,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/solar-system.png" alt="projeto solar system" />
+          <img src="images/solar-system.webp" alt="projeto solar system" />
           <br />
           <strong>Projeto Solar System</strong>
           <p>
@@ -88,7 +88,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/mybookCapa.png" alt="mybook" />
+          <img src="images/mybookCapa.webp" alt="mybook" />
           <br />
           <strong>Projeto MyBook</strong>
           <p>
@@ -106,7 +106,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/podcasts.png" alt="Podcast Managment" />
+          <img src="images/podcasts.webp" alt="Podcast Managment" />
           <br />
           <strong>Projeto PodcastManagment</strong>
           <p>
@@ -119,7 +119,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="project">
-          <img src="images/parkingSystem.png" alt="Parking System" />
+          <img src="images/parkingSystem.webp" alt="Parking System" />
           <br />
           <strong>Projeto ParkingSystem</strong>
           <p>
